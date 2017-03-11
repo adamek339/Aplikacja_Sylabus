@@ -1,0 +1,279 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ppp.testowa.FragmentH"
+  >
+
+
+    <ScrollView
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategorie zajęć "
+                android:id="@+id/CategoryOfClassesS"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obciążenie studenta pracą"
+                android:id="@+id/WorkS"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="47dp"
+                android:layout_marginEnd="47dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="godziny"
+                android:id="@+id/hoursS"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/WorkS"
+                android:layout_toLeftOf="@+id/ECTSS"
+                android:layout_toStartOf="@+id/ECTSS"
+                android:layout_marginRight="38dp"
+                android:layout_marginEnd="38dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ECTS"
+                android:id="@+id/ECTSS"
+                android:layout_alignTop="@+id/hoursS"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="A. Zajęcia w kontakcie z nauczycielem"
+                android:id="@+id/AS"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hoursS"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/hoursAB"
+
+                android:layout_alignTop="@+id/AS"
+                android:layout_alignRight="@+id/hoursS"
+                android:layout_alignEnd="@+id/hoursS" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/ECTSABase"
+
+                android:layout_alignTop="@+id/hoursAB"
+                android:layout_alignRight="@+id/WorkS"
+                android:layout_alignEnd="@+id/WorkS" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="A1. w tym zajęcia praktyczne"
+                android:id="@+id/A1SS"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/AS"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:id="@+id/hourseA1B"
+                android:layout_alignTop="@+id/A1SS"
+                android:layout_alignLeft="@+id/hoursAB"
+                android:layout_alignStart="@+id/hoursAB" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/ECTSA1B"
+                android:layout_alignTop="@+id/hourseA1B"
+                android:layout_alignLeft="@+id/ECTSABase"
+                android:layout_alignStart="@+id/ECTSABase" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="B. Samokształcenie bez kontaktu z nauczycielem( praca własna studenta)"
+                android:id="@+id/BSS"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/A1SS"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/hourseBB"
+                android:layout_alignTop="@+id/BSS"
+                android:layout_alignLeft="@+id/hourseA1B"
+                android:layout_alignStart="@+id/hourseA1B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/ECTSBB"
+                android:layout_alignBottom="@+id/hourseBB"
+                android:layout_toLeftOf="@+id/ECTSS"
+                android:layout_alignTop="@+id/hourseBB"
+                android:layout_alignLeft="@+id/ECTSS"
+                android:layout_alignStart="@+id/ECTSS" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="B1 w tym samokształcenie praktyczbe (praca własna studenta praktyczna)"
+                android:id="@+id/B1SS"
+                android:layout_below="@+id/BSS"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/hourseB1B"
+                android:layout_alignTop="@+id/B1SS"
+                android:layout_alignLeft="@+id/hourseBB"
+                android:layout_alignStart="@+id/hourseBB" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/ECTSB1B"
+                android:layout_alignTop="@+id/hourseB1B"
+                android:layout_alignLeft="@+id/ECTSBB"
+                android:layout_alignStart="@+id/ECTSBB" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="C. Sumaryczne obciążenie studenta zajęciami praktycznymi (C=A+B)"
+                android:id="@+id/CS"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/B1SS"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/hourseCB"
+                android:layout_alignTop="@+id/CS"
+                android:layout_alignLeft="@+id/hourseB1B"
+                android:layout_alignStart="@+id/hourseB1B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/ECTSCCB"
+                android:layout_alignTop="@+id/hourseCB"
+                android:layout_alignRight="@+id/ECTSB1B"
+                android:layout_alignEnd="@+id/ECTSB1B" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="D. Sumaryczne obciążenie studenta pracą (D=A+B)"
+                android:id="@+id/DSS"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/CS"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/HourseDB"
+                android:layout_alignTop="@+id/DSS"
+                android:layout_alignRight="@+id/hoursS"
+                android:layout_alignEnd="@+id/hoursS"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/ECTSDB"
+                android:layout_alignTop="@+id/HourseDB"
+                android:layout_alignLeft="@+id/ECTSCCB"
+                android:layout_alignStart="@+id/ECTSCCB" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19. Bilans godzin i punktów ECTS"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/scrollView2"
+        android:layout_alignStart="@+id/scrollView2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>

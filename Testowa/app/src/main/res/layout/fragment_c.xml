@@ -1,0 +1,355 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ppp.testowa.FragmentC">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="14. Efekty kształcenia modułu"
+        android:id="@+id/EducationEffectOfModuleS"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symbol efekt mod."
+        android:id="@+id/SymEffectModS"
+        android:layout_below="@+id/EducationEffectOfModuleS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Symbol efektu kier."
+        android:id="@+id/SymEducEffect"
+        android:layout_below="@+id/EducationEffectOfModuleS"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+
+
+<ScrollView
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="A. Wiedza"
+        android:id="@+id/KnowledgeS"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Knowledge1"
+        android:layout_below="@+id/KnowledgeS"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymEffecModK1"
+        android:layout_alignTop="@+id/Knowledge1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+   />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymbEffecEducK1"
+        android:layout_alignTop="@+id/Knowledge1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymEffecModK2"
+        android:layout_alignTop="@+id/Knowledge2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Knowledge2"
+       android:layout_marginTop="20dp"
+        android:layout_below="@+id/Knowledge1"
+        android:layout_alignLeft="@+id/Knowledge1"
+        android:layout_alignStart="@+id/Knowledge1" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymbEffecEducK2"
+        android:layout_alignTop="@+id/Knowledge2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Knowledge3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Knowledge2"
+        android:layout_alignLeft="@+id/Knowledge2"
+        android:layout_alignStart="@+id/Knowledge2" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymEffecModK3"
+        android:layout_alignTop="@+id/Knowledge3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymbEffecEducK3"
+        android:layout_alignTop="@+id/Knowledge3"
+        android:layout_alignLeft="@+id/SymbEffecEducK2"
+        android:layout_alignStart="@+id/SymbEffecEducK2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B. Umiejętności"
+        android:id="@+id/SkillsS"
+        android:layout_below="@+id/Knowledge3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Skills1"
+        android:layout_below="@+id/SkillsS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymEffecModS1"
+        android:layout_alignTop="@+id/Skills1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymbEffecEducS1"
+        android:layout_alignTop="@+id/Skills1"
+        android:layout_alignLeft="@+id/SymbEffecEducK3"
+        android:layout_alignStart="@+id/SymbEffecEducK3" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Skills2"
+        android:layout_below="@+id/Skills1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymEffecModS2"
+        android:layout_alignTop="@+id/Skills2"
+        android:layout_alignRight="@+id/SymEffecModS1"
+        android:layout_alignEnd="@+id/SymEffecModS1" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymbEffecEducS2"
+        android:layout_alignTop="@+id/Skills2"
+        android:layout_alignLeft="@+id/SymbEffecEducS1"
+        android:layout_alignStart="@+id/SymbEffecEducS1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Skills3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Skills2"
+        android:layout_alignLeft="@+id/Skills2"
+        android:layout_alignStart="@+id/Skills2" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymEffecModS3"
+        android:layout_alignTop="@+id/Skills3"
+        android:layout_alignRight="@+id/SymEffecModS2"
+        android:layout_alignEnd="@+id/SymEffecModS2" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/SymbEffecEducS3"
+        android:layout_alignTop="@+id/Skills3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kompetencje Społeczne"
+        android:id="@+id/CompetencesS"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Skills3"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/Competences1"
+            android:layout_below="@+id/CompetencesS"
+            android:layout_alignLeft="@+id/Skills3"
+            android:layout_alignStart="@+id/Skills3"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/SymEffecModC1"
+            android:layout_alignTop="@+id/Competences1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/SymbEffecEducC1"
+            android:layout_alignTop="@+id/Competences1"
+            android:layout_alignLeft="@+id/SymbEffecEducS3"
+            android:layout_alignStart="@+id/SymbEffecEducS3" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/Competences2"
+            android:layout_below="@+id/Competences1"
+            android:layout_alignLeft="@+id/Competences1"
+            android:layout_alignStart="@+id/Competences1"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/SymEffecModC2"
+            android:layout_alignTop="@+id/Competences2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/SymbEffecEducC2"
+            android:layout_alignTop="@+id/Competences2"
+            android:layout_alignLeft="@+id/SymbEffecEducC1"
+            android:layout_alignStart="@+id/SymbEffecEducC1" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/Competences3"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Competences2"
+            android:layout_alignLeft="@+id/Competences2"
+            android:layout_alignStart="@+id/Competences2" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/SymEffecModC3"
+            android:layout_alignTop="@+id/Competences3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/SymbEffecEducC3"
+            android:layout_alignTop="@+id/Competences3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

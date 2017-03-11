@@ -1,0 +1,260 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ppp.testowa.FragmentA">
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis modułu kształcenia"
+        android:id="@+id/ModuleDescriptionS"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Nazwa przemiotu: "
+        android:id="@+id/ModuleNameS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:id="@+id/ModuleNameB"
+        android:layout_alignTop="@+id/ModuleNameS"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/DepartmentB"
+        android:layout_alignStart="@+id/DepartmentB" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Wydział: "
+        android:id="@+id/DepartmentS"
+        android:layout_below="@+id/ModuleNameS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+
+        android:id="@+id/DepartmentB"
+        android:layout_alignTop="@+id/DepartmentS"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/FieldB"
+        android:layout_alignStart="@+id/FieldB" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Kierunek studiów: "
+        android:id="@+id/FieldS"
+        android:layout_below="@+id/DepartmentS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:id="@+id/FieldB"
+        android:layout_below="@+id/DepartmentB"
+        android:layout_alignLeft="@+id/KodModuluB"
+        android:layout_alignStart="@+id/KodModuluB" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Kod modułu: "
+        android:id="@+id/ModuleCodeS"
+        android:layout_below="@+id/FieldS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+
+        android:id="@+id/KodModuluB"
+        android:layout_alignTop="@+id/ModuleCodeS"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Profil: "
+        android:id="@+id/ProfileS"
+        android:layout_below="@+id/ModuleCodeS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/ProfileB"
+        android:layout_below="@+id/KodModuluB"
+        android:layout_alignLeft="@+id/KodModuluB"
+        android:layout_alignStart="@+id/KodModuluB" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Forma studiów"
+        android:id="@+id/FormS"
+        android:layout_below="@+id/ProfileS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/FormB"
+        android:layout_below="@+id/ProfileB"
+        android:layout_alignLeft="@+id/ProfileB"
+        android:layout_alignStart="@+id/ProfileB" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Kategoria modułu"
+        android:id="@+id/ModuleCategoryS"
+        android:layout_below="@+id/FormS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/ModuleCategoryB"
+        android:layout_below="@+id/FormB"
+        android:layout_alignLeft="@+id/FormB"
+        android:layout_alignStart="@+id/FormB" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Semestr: "
+        android:id="@+id/SemesterS"
+        android:layout_below="@+id/ModuleCategoryS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/SemesterB"
+        android:layout_alignTop="@+id/SemesterS"
+        android:layout_alignLeft="@+id/ModuleCategoryB"
+        android:layout_alignStart="@+id/ModuleCategoryB" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Język wykładowy: "
+        android:id="@+id/langLectS"
+        android:layout_below="@+id/SemesterS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:id="@+id/LangLectB"
+        android:layout_below="@+id/SemesterB"
+        android:layout_alignLeft="@+id/SemesterB"
+        android:layout_alignStart="@+id/SemesterB" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="ISCED/ESAX: "
+        android:id="@+id/ISCEDESAXS"
+        android:layout_below="@+id/langLectS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+
+        android:id="@+id/ISCEDESAXB"
+        android:layout_below="@+id/LangLectB"
+        android:layout_alignLeft="@+id/LangLectB"
+        android:layout_alignStart="@+id/LangLectB" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Koordynator modułu: "
+        android:id="@+id/TeaacherS"
+        android:layout_below="@+id/ISCEDESAXS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:id="@+id/TeacherB"
+        android:layout_alignTop="@+id/TeaacherS"
+        android:layout_alignLeft="@+id/ISCEDESAXB"
+        android:layout_alignStart="@+id/ISCEDESAXB"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

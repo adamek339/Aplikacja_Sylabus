@@ -1,0 +1,584 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ppp.testowa.FragmentE"
+>
+
+
+
+    <ScrollView
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KursA"
+            android:id="@+id/CourseAS"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metody Dydaktyczne"
+            android:id="@+id/EducMethAS"
+            android:layout_below="@+id/CourseAS"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/EducMethAB"
+            android:layout_below="@+id/EducMethAS"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Forma Zajec: "
+            android:id="@+id/formOfClassAS"
+            android:layout_alignTop="@+id/formOfClassAB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="Praca włąsna"
+            android:id="@+id/formOfClassAB"
+            android:layout_below="@+id/EducMethAB"
+            android:layout_toRightOf="@+id/formOfClassAS"
+            android:layout_toEndOf="@+id/formOfClassAS"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/numberOfHourseAB"
+            android:layout_below="@+id/formOfClassAB"
+            android:layout_alignLeft="@+id/EducMethAS"
+            android:layout_alignStart="@+id/EducMethAS"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Liczba Godzin: "
+            android:id="@+id/numberOfHourseAS"
+            android:layout_alignTop="@+id/numberOfHourseAB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/nameAB"
+            android:layout_below="@+id/numberOfHourseAB"
+            android:layout_toRightOf="@+id/numberOfHourseAS"
+            android:layout_toEndOf="@+id/numberOfHourseAS"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/surnameAB"
+            android:layout_alignTop="@+id/nameAB"
+            android:layout_alignRight="@+id/EducMethAS"
+            android:layout_alignEnd="@+id/EducMethAS" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Prowadzący:"
+            android:id="@+id/teacherA"
+            android:layout_alignTop="@+id/nameAB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kurs B"
+            android:id="@+id/CourseBS"
+            android:layout_below="@+id/nameAB"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metody Dydaktyczne"
+            android:id="@+id/EducMethBS"
+            android:layout_below="@+id/CourseBS"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/EducMethBB"
+            android:layout_below="@+id/EducMethBS"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/formOfClassAB"
+            android:layout_alignEnd="@+id/formOfClassAB"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/formOfClassBB"
+            android:layout_below="@+id/EducMethBB"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Forma Zajęć: "
+            android:id="@+id/formOfClassBS"
+            android:layout_alignTop="@+id/formOfClassBB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/numberOfHourseBB"
+            android:layout_below="@+id/formOfClassBB"
+            android:layout_alignLeft="@+id/EducMethBS"
+            android:layout_alignStart="@+id/EducMethBS"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Liczba Godzin: "
+            android:id="@+id/numberOfHourseBS"
+            android:layout_alignTop="@+id/numberOfHourseBB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/nameBB"
+            android:layout_below="@+id/numberOfHourseBB"
+            android:layout_toRightOf="@+id/teacherB"
+            android:layout_toEndOf="@+id/teacherB"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Prowadzący: "
+            android:id="@+id/teacherB"
+            android:layout_alignTop="@+id/nameBB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/surnameBB"
+            android:layout_alignTop="@+id/nameBB"
+            android:layout_alignRight="@+id/EducMethBS"
+            android:layout_alignEnd="@+id/EducMethBS" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kurs C"
+            android:id="@+id/CourseCS"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/surnameBB"
+            android:layout_alignLeft="@+id/CourseAS"
+            android:layout_alignStart="@+id/CourseAS"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metody Dydaktyczne"
+            android:id="@+id/EducMethCS"
+            android:layout_below="@+id/CourseCS"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/EducMethCB"
+            android:layout_below="@+id/EducMethCS"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignRight="@+id/formOfClassAB"
+            android:layout_alignEnd="@+id/formOfClassAB" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/formOfClassCB"
+            android:layout_below="@+id/EducMethCB"
+            android:layout_toRightOf="@+id/formOfClassCS"
+            android:layout_toEndOf="@+id/formOfClassCS"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Forma Zajęć: "
+            android:id="@+id/formOfClassCS"
+            android:layout_alignTop="@+id/formOfClassCB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/numberOfHourseCB"
+            android:layout_below="@+id/formOfClassCB"
+            android:layout_toRightOf="@+id/numberOfHourseBB"
+            android:layout_toEndOf="@+id/numberOfHourseBB"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Liczba Godzin: "
+            android:id="@+id/numberOfHourseCS"
+            android:layout_alignTop="@+id/numberOfHourseCB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/nameCB"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/numberOfHourseCB"
+
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/surnameCB"
+            android:layout_alignTop="@+id/nameCB"
+            android:layout_toRightOf="@+id/CourseCS"
+            android:layout_toEndOf="@+id/CourseCS" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Prowadzący: "
+            android:id="@+id/teacherC"
+            android:layout_alignTop="@+id/nameCB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kurs D"
+            android:id="@+id/CourseDS"
+            android:layout_below="@+id/nameCB"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metody Dydaktyczne "
+            android:id="@+id/EducMethDS"
+            android:layout_below="@+id/CourseDS"
+            android:layout_alignRight="@+id/EducMethCS"
+            android:layout_alignEnd="@+id/EducMethCS"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/EducMethDB"
+            android:layout_below="@+id/EducMethDS"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignRight="@+id/formOfClassCB"
+            android:layout_alignEnd="@+id/formOfClassCB" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/formOfClassDB"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/EducMethDB"
+            android:layout_toRightOf="@+id/formOfClassDS"
+            android:layout_toEndOf="@+id/formOfClassDS" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Forma Zajęć: "
+            android:id="@+id/formOfClassDS"
+            android:layout_alignTop="@+id/formOfClassDB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/numberOfHourseDB"
+            android:layout_below="@+id/formOfClassDB"
+            android:layout_alignLeft="@+id/formOfClassDB"
+            android:layout_alignStart="@+id/formOfClassDB"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Liczba Godzin: "
+            android:id="@+id/numberOfHourseDS"
+            android:layout_alignTop="@+id/numberOfHourseDB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/nameDB"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/numberOfHourseDB"
+            android:layout_alignLeft="@+id/numberOfHourseDB"
+            android:layout_alignStart="@+id/numberOfHourseDB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kurs E"
+            android:id="@+id/CourseES"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/nameDB"
+
+            android:layout_marginLeft="150dp"
+
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metody Dydaktyczne"
+            android:id="@+id/EducMethES"
+            android:layout_below="@+id/CourseES"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/EducMethEB"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/EducMethES"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/formOfClassEB"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/EducMethEB"
+            android:layout_toRightOf="@+id/formOfClassES"
+            android:layout_toEndOf="@+id/formOfClassES" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Forma Zajęć: "
+            android:id="@+id/formOfClassES"
+            android:layout_alignBottom="@+id/formOfClassEB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/numberOfHourseEB"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/formOfClassEB"
+
+
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Liczba Godzin: "
+            android:id="@+id/numberOfHourseES"
+            android:layout_alignTop="@+id/numberOfHourseEB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Prowadzący: "
+            android:id="@+id/teacherD"
+            android:layout_alignTop="@+id/nameDB"
+            android:layout_alignRight="@+id/numberOfHourseDS"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/surnameDB"
+            android:layout_alignTop="@+id/nameDB"
+            android:layout_toRightOf="@+id/nameCB"
+            android:layout_toEndOf="@+id/nameCB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/nameEB"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/numberOfHourseEB"
+
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Prowadzący: "
+            android:id="@+id/teacherE"
+            android:layout_alignTop="@+id/nameEB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/SurnameEB"
+            android:layout_alignTop="@+id/nameEB"
+            android:layout_toRightOf="@+id/CourseAS"
+            android:layout_toEndOf="@+id/CourseAS" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16. Metody i formy zajęc, wymiar, prowadzący "
+        android:id="@+id/textView3"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+
+        />
+
+</RelativeLayout>
